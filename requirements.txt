@@ -1,0 +1,28 @@
+# Core
+ultralytics==8.3.25   # YOLOv8/YOLO11, 支持 OBB 任务
+numpy
+torch>=2.0
+torchvision
+
+# Data processing
+opencv-python
+pillow
+pyyaml
+
+# Evaluation / Metrics
+scipy
+tqdm
+
+# Export & Inference
+onnx
+onnxruntime-gpu  # 若不用GPU推理，可换 onnxruntime
+
+# 可选：地理影像/遥感
+tifffile         # 读取 GeoTIFF
+shapely          # 多边形处理
+geopandas        # 若需要空间分析
+rasterio         # 若要读取大幅遥感数据
+
+# 可选：Notebook/调试
+matplotlib
+jupyter
