@@ -1,0 +1,74 @@
+[
+  {
+    "object_type": "ship",
+    "area": {
+      "type": "polygon",
+      "coords": "polygon:[[0,0],[1,0],[1,1],[0,1],[0,0]]"
+    },
+    "time_utc": "unknown",
+    "credibility": 0.9,
+    "evidence": [
+      {
+        "type": "photo",
+        "uri": "unknown"
+      }
+    ],
+    "notes": "场景显示了一个港口区域，停靠着多艘船只。",
+    "provider": "ops_team",
+    "schema_version": "1.0",
+    "scene_overview": "港口区域停靠船只",
+    "environment": {
+      "weather": "未知",
+      "lighting": "白天",
+      "visibility": "好"
+    },
+    "location_estimate": {
+      "method": "unknown",
+      "geo_known": false,
+      "remark": "坐标未知"
+    },
+    "entities": [
+      {
+        "category": "ship",
+        "count": 20,
+        "colors": [
+          "白",
+          "蓝"
+        ],
+        "sizes": "中",
+        "is_moving": false,
+        "region": {
+          "type": "none",
+          "coords": []
+        },
+        "attributes": [
+          "停靠"
+        ]
+      }
+    ],
+    "orderliness": {
+      "discipline": "有序",
+      "crowd_density": "无人",
+      "traffic_flow": "畅通"
+    },
+    "activities": [
+      "日常经营"
+    ],
+    "security_presence": {
+      "guards_seen": "unknown",
+      "checkpoints": "false",
+      "remark": ""
+    },
+    "notable_observations": [
+      "无明显异常现象"
+    ],
+    "risk_indicators": {
+      "level": "LOW",
+      "reasons": []
+    },
+    "investigator_note_cn": "场景显示了一个港口区域，有多艘船只停靠，颜色以白色和蓝色为主，秩序良好，周围无人，交通流畅。值得注意的是，船只停靠整齐，没有明显的异常现象，整体环境看起来安全。",
+    "uncertainties": [
+      "拍摄时间不详，坐标未知"
+    ]
+  }
+]
